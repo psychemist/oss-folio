@@ -1,10 +1,10 @@
 {
   "username": "psychemist",
-  "generatedAt": "2026-03-01T16:01:27.804501Z",
+  "generatedAt": "2026-03-02T08:58:28.951219Z",
   "summary": {
-    "totalProjects": 36,
-    "totalPRsMerged": 72,
-    "totalCommits": 72,
+    "totalProjects": 35,
+    "totalPRsMerged": 77,
+    "totalCommits": 77,
     "totalAdditions": 0,
     "totalDeletions": 0
   },
@@ -27,6 +27,37 @@
           "title": "Change Bolt11Invoice payment_hash function return type",
           "url": "https://github.com/lightningdevkit/rust-lightning/pull/4293",
           "createdAt": "2025-12-26T17:35:09Z"
+        }
+      ]
+    },
+    {
+      "repo": "aaron-recompile/mastering-taproot",
+      "owner": "aaron-recompile",
+      "repoName": "mastering-taproot",
+      "description": "The first comprehensive developer’s guide to Bitcoin's most powerful upgrade — Taproot, fully open-access, reproducible, and testnet-verified. Written by Aaron Zhang. Supported by OpenSats.",
+      "repoURL": "https://github.com/aaron-recompile/mastering-taproot",
+      "stars": 45,
+      "prsMerged": 3,
+      "commits": 3,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2026-02-27T19:31:14Z",
+      "lastContribution": "2026-03-02T05:01:41Z",
+      "prs": [
+        {
+          "title": "Fix Schnorr tweak verification",
+          "url": "https://github.com/aaron-recompile/mastering-taproot/pull/24",
+          "createdAt": "2026-02-27T16:10:03Z"
+        },
+        {
+          "title": "Fix Schnorr tweak logic",
+          "url": "https://github.com/aaron-recompile/mastering-taproot/pull/23",
+          "createdAt": "2026-02-27T16:02:00Z"
+        },
+        {
+          "title": "Correct transaction visualizations",
+          "url": "https://github.com/aaron-recompile/mastering-taproot/pull/22",
+          "createdAt": "2026-02-27T15:59:16Z"
         }
       ]
     },
@@ -79,27 +110,6 @@
           "title": "Fix: Add/Edit evm address",
           "url": "https://github.com/lfglabs-dev/app.starknet.id/pull/1039",
           "createdAt": "2025-02-11T10:47:06Z"
-        }
-      ]
-    },
-    {
-      "repo": "aaron-recompile/mastering-taproot",
-      "owner": "aaron-recompile",
-      "repoName": "mastering-taproot",
-      "description": "The first comprehensive developer’s guide to Bitcoin's most powerful upgrade — Taproot, fully open-access, reproducible, and testnet-verified. Written by Aaron Zhang. Supported by OpenSats.",
-      "repoURL": "https://github.com/aaron-recompile/mastering-taproot",
-      "stars": 45,
-      "prsMerged": 1,
-      "commits": 1,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2026-02-27T19:31:14Z",
-      "lastContribution": "2026-02-27T19:31:14Z",
-      "prs": [
-        {
-          "title": "Fix Schnorr tweak logic",
-          "url": "https://github.com/aaron-recompile/mastering-taproot/pull/23",
-          "createdAt": "2026-02-27T16:02:00Z"
         }
       ]
     },
@@ -542,6 +552,47 @@
       ]
     },
     {
+      "repo": "AceBuilderLabs/SmartContract",
+      "owner": "AceBuilderLabs",
+      "repoName": "SmartContract",
+      "description": "",
+      "repoURL": "https://github.com/AceBuilderLabs/SmartContract",
+      "stars": 0,
+      "prsMerged": 5,
+      "commits": 5,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2024-11-26T13:44:40Z",
+      "lastContribution": "2024-11-27T14:51:17Z",
+      "prs": [
+        {
+          "title": "Add functions for getting user teams and leagues",
+          "url": "https://github.com/AceBuilderLabs/SmartContract/pull/5",
+          "createdAt": "2024-11-27T14:51:08Z"
+        },
+        {
+          "title": "Separate creation and addition of teams to leagues",
+          "url": "https://github.com/AceBuilderLabs/SmartContract/pull/4",
+          "createdAt": "2024-11-27T02:40:15Z"
+        },
+        {
+          "title": "Rework get balances",
+          "url": "https://github.com/AceBuilderLabs/SmartContract/pull/3",
+          "createdAt": "2024-11-26T20:01:11Z"
+        },
+        {
+          "title": "Rework league registration and team rewards",
+          "url": "https://github.com/AceBuilderLabs/SmartContract/pull/2",
+          "createdAt": "2024-11-26T16:34:57Z"
+        },
+        {
+          "title": "Fix league and team creation logic",
+          "url": "https://github.com/AceBuilderLabs/SmartContract/pull/1",
+          "createdAt": "2024-11-26T13:44:31Z"
+        }
+      ]
+    },
+    {
       "repo": "stakepoint/starkwager-backend",
       "owner": "stakepoint",
       "repoName": "starkwager-backend",
@@ -668,27 +719,6 @@
       ]
     },
     {
-      "repo": "ByteBeasts/ByteBeastsFrontend",
-      "owner": "ByteBeasts",
-      "repoName": "ByteBeastsFrontend",
-      "description": "",
-      "repoURL": "https://github.com/ByteBeasts/ByteBeastsFrontend",
-      "stars": 2,
-      "prsMerged": 1,
-      "commits": 1,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2024-12-14T14:41:58Z",
-      "lastContribution": "2024-12-14T14:41:58Z",
-      "prs": [
-        {
-          "title": "Rename BabySprite files",
-          "url": "https://github.com/ByteBeasts/ByteBeastsFrontend/pull/168",
-          "createdAt": "2024-12-13T13:54:53Z"
-        }
-      ]
-    },
-    {
       "repo": "StarShopCr/StarShop-Contracts",
       "owner": "StarShopCr",
       "repoName": "StarShop-Contracts",
@@ -711,6 +741,69 @@
           "title": "Test: Dispute Handling",
           "url": "https://github.com/StarShopCr/StarShop-Contracts/pull/57",
           "createdAt": "2025-01-31T16:29:00Z"
+        }
+      ]
+    },
+    {
+      "repo": "ByteBeasts/ByteBeastsFrontend",
+      "owner": "ByteBeasts",
+      "repoName": "ByteBeastsFrontend",
+      "description": "",
+      "repoURL": "https://github.com/ByteBeasts/ByteBeastsFrontend",
+      "stars": 2,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2024-12-14T14:41:58Z",
+      "lastContribution": "2024-12-14T14:41:58Z",
+      "prs": [
+        {
+          "title": "Rename BabySprite files",
+          "url": "https://github.com/ByteBeasts/ByteBeastsFrontend/pull/168",
+          "createdAt": "2024-12-13T13:54:53Z"
+        }
+      ]
+    },
+    {
+      "repo": "Sisyphus-Training/Sisyphus",
+      "owner": "Sisyphus-Training",
+      "repoName": "Sisyphus",
+      "description": "A tool for physical therapists to ease building exercise routines based on individual data from each patient, their personal preferences, personal objectives and individual needs according to their health, age and regular physical activity",
+      "repoURL": "https://github.com/Sisyphus-Training/Sisyphus",
+      "stars": 0,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2025-06-03T21:35:29Z",
+      "lastContribution": "2025-06-03T21:35:29Z",
+      "prs": [
+        {
+          "title": "Feat: Create Smart Contract for Subscription Service",
+          "url": "https://github.com/Sisyphus-Training/Sisyphus/pull/29",
+          "createdAt": "2025-05-29T10:44:12Z"
+        }
+      ]
+    },
+    {
+      "repo": "BlockBatch/BlockBatchDev",
+      "owner": "BlockBatch",
+      "repoName": "BlockBatchDev",
+      "description": "",
+      "repoURL": "https://github.com/BlockBatch/BlockBatchDev",
+      "stars": 0,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2025-05-28T03:31:04Z",
+      "lastContribution": "2025-05-28T03:31:04Z",
+      "prs": [
+        {
+          "title": "[CONTRACT]  Feat: Implement Escrow Contract",
+          "url": "https://github.com/BlockBatch/BlockBatchDev/pull/38",
+          "createdAt": "2025-05-20T07:10:27Z"
         }
       ]
     },
@@ -778,48 +871,6 @@
       ]
     },
     {
-      "repo": "Sisyphus-Training/Sisyphus",
-      "owner": "Sisyphus-Training",
-      "repoName": "Sisyphus",
-      "description": "A tool for physical therapists to ease building exercise routines based on individual data from each patient, their personal preferences, personal objectives and individual needs according to their health, age and regular physical activity",
-      "repoURL": "https://github.com/Sisyphus-Training/Sisyphus",
-      "stars": 0,
-      "prsMerged": 1,
-      "commits": 1,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2025-06-03T21:35:29Z",
-      "lastContribution": "2025-06-03T21:35:29Z",
-      "prs": [
-        {
-          "title": "Feat: Create Smart Contract for Subscription Service",
-          "url": "https://github.com/Sisyphus-Training/Sisyphus/pull/29",
-          "createdAt": "2025-05-29T10:44:12Z"
-        }
-      ]
-    },
-    {
-      "repo": "BlockBatch/BlockBatchDev",
-      "owner": "BlockBatch",
-      "repoName": "BlockBatchDev",
-      "description": "",
-      "repoURL": "https://github.com/BlockBatch/BlockBatchDev",
-      "stars": 0,
-      "prsMerged": 1,
-      "commits": 1,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2025-05-28T03:31:04Z",
-      "lastContribution": "2025-05-28T03:31:04Z",
-      "prs": [
-        {
-          "title": "[CONTRACT]  Feat: Implement Escrow Contract",
-          "url": "https://github.com/BlockBatch/BlockBatchDev/pull/38",
-          "createdAt": "2025-05-20T07:10:27Z"
-        }
-      ]
-    },
-    {
       "repo": "BudgetChain/budgetchain_contracts",
       "owner": "BudgetChain",
       "repoName": "budgetchain_contracts",
@@ -858,6 +909,27 @@
           "title": "Update Paystack subscription service and add webhook",
           "url": "https://github.com/Gradell-Technology-Limited/Backend/pull/6",
           "createdAt": "2025-01-22T08:30:40Z"
+        }
+      ]
+    },
+    {
+      "repo": "AceBuilderLabs/Fantasy-football-league",
+      "owner": "AceBuilderLabs",
+      "repoName": "Fantasy-football-league",
+      "description": "Decentralized Fantasy Football League that utilizes smart contracts for transparent scoring and automatic reward distribution in fantasy football.",
+      "repoURL": "https://github.com/AceBuilderLabs/Fantasy-football-league",
+      "stars": 0,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2024-12-04T09:40:49Z",
+      "lastContribution": "2024-12-04T09:40:49Z",
+      "prs": [
+        {
+          "title": "feat: Add Team Card to user dashboard and Connect Wallet button to homepage",
+          "url": "https://github.com/AceBuilderLabs/Fantasy-football-league/pull/16",
+          "createdAt": "2024-11-27T14:52:01Z"
         }
       ]
     },

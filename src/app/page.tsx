@@ -62,12 +62,12 @@ export default function Home() {
           <MetricCard
             title="Total PRs Merged"
             value={summary.totalPRsMerged}
-            icon={<GitPullRequest className="w-6 h-6 text-green-400" />}
+            icon={<GitPullRequest className="w-6 h-6 text-purple-400" />}
           />
           <MetricCard
             title="Total Commits"
             value={summary.totalCommits}
-            icon={<GitCommit className="w-6 h-6 text-purple-400" />}
+            icon={<GitCommit className="w-6 h-6 text-green-400" />}
           />
         </section>
 
@@ -97,10 +97,11 @@ export default function Home() {
                     {repo.stars}
                   </div>
                 </div>
-
-                <p className="text-neutral-400 text-sm mb-6 flex-grow line-clamp-3">
-                  {repo.description || "No description provided."}
-                </p>
+                <div className="mb-6 flex-grow">
+                  <p className="text-neutral-400 text-sm line-clamp-3 break-words">
+                    {repo.description || "No description provided."}
+                  </p>
+                </div>
 
                 {/* PR Links */}
                 {(repo as any).prs && (repo as any).prs.length > 0 && (
@@ -109,7 +110,7 @@ export default function Home() {
                     <ul className="space-y-1.5">
                       {(repo as any).prs.slice(0, 3).map((pr: any, i: number) => (
                         <li key={i} className="flex items-start gap-2">
-                          <GitPullRequest className="w-3.5 h-3.5 mt-0.5 text-green-500 shrink-0" />
+                          <GitPullRequest className="w-3.5 h-3.5 mt-0.5 text-purple-500 shrink-0" />
                           <a
                             href={pr.url}
                             target="_blank"
