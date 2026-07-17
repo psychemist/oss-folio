@@ -1,10 +1,10 @@
 {
   "username": "psychemist",
-  "generatedAt": "2026-03-02T08:58:28.951219Z",
+  "generatedAt": "2026-07-17T18:43:49.769176Z",
   "summary": {
-    "totalProjects": 35,
-    "totalPRsMerged": 77,
-    "totalCommits": 77,
+    "totalProjects": 37,
+    "totalPRsMerged": 80,
+    "totalCommits": 80,
     "totalAdditions": 0,
     "totalDeletions": 0
   },
@@ -13,9 +13,9 @@
       "repo": "lightningdevkit/rust-lightning",
       "owner": "lightningdevkit",
       "repoName": "rust-lightning",
-      "description": "A highly modular Bitcoin Lightning library written in Rust. It's rust-lightning, not Rusty's Lightning!",
+      "description": "This repo is a mirror of https://git.rust-bitcoin.org/lightningdevkit/rust-lightning",
       "repoURL": "https://github.com/lightningdevkit/rust-lightning",
-      "stars": 1338,
+      "stars": 1361,
       "prsMerged": 1,
       "commits": 1,
       "additions": 0,
@@ -34,16 +34,21 @@
       "repo": "aaron-recompile/mastering-taproot",
       "owner": "aaron-recompile",
       "repoName": "mastering-taproot",
-      "description": "The first comprehensive developer’s guide to Bitcoin's most powerful upgrade — Taproot, fully open-access, reproducible, and testnet-verified. Written by Aaron Zhang. Supported by OpenSats.",
+      "description": "The first comprehensive developer’s guide to Bitcoin's most powerful upgrade — Taproot, fully open-access, reproducible, and testnet-verified. ",
       "repoURL": "https://github.com/aaron-recompile/mastering-taproot",
-      "stars": 45,
-      "prsMerged": 3,
-      "commits": 3,
+      "stars": 60,
+      "prsMerged": 4,
+      "commits": 4,
       "additions": 0,
       "deletions": 0,
       "firstContribution": "2026-02-27T19:31:14Z",
-      "lastContribution": "2026-03-02T05:01:41Z",
+      "lastContribution": "2026-03-05T07:22:46Z",
       "prs": [
+        {
+          "title": "Add week-1 lab solution",
+          "url": "https://github.com/aaron-recompile/mastering-taproot/pull/31",
+          "createdAt": "2026-03-03T16:36:30Z"
+        },
         {
           "title": "Fix Schnorr tweak verification",
           "url": "https://github.com/aaron-recompile/mastering-taproot/pull/24",
@@ -58,6 +63,27 @@
           "title": "Correct transaction visualizations",
           "url": "https://github.com/aaron-recompile/mastering-taproot/pull/22",
           "createdAt": "2026-02-27T15:59:16Z"
+        }
+      ]
+    },
+    {
+      "repo": "bitcointranscripts/bitcointranscripts",
+      "owner": "bitcointranscripts",
+      "repoName": "bitcointranscripts",
+      "description": "A treasure trove of transcripts associated with Bitcoin and Lightning Network",
+      "repoURL": "https://github.com/bitcointranscripts/bitcointranscripts",
+      "stars": 110,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2026-03-05T15:29:07Z",
+      "lastContribution": "2026-03-05T15:29:07Z",
+      "prs": [
+        {
+          "title": "Add cluster-mempool-by-murch review to tabconf/2024",
+          "url": "https://github.com/bitcointranscripts/bitcointranscripts/pull/615",
+          "createdAt": "2026-03-02T18:48:35Z"
         }
       ]
     },
@@ -114,12 +140,12 @@
       ]
     },
     {
-      "repo": "mediolano-app/mediolano-app",
-      "owner": "mediolano-app",
+      "repo": "mediolano-os/mediolano-app",
+      "owner": "mediolano-os",
       "repoName": "mediolano-app",
       "description": "IP Creator permissionless dapp with Zero Fees – Programmable IP for the Integrity Web",
-      "repoURL": "https://github.com/mediolano-app/mediolano-app",
-      "stars": 13,
+      "repoURL": "https://github.com/mediolano-os/mediolano-app",
+      "stars": 15,
       "prsMerged": 3,
       "commits": 3,
       "additions": 0,
@@ -129,44 +155,18 @@
       "prs": [
         {
           "title": "Dapp X/Twitter Tokenization",
-          "url": "https://github.com/mediolano-app/mediolano-app/pull/182",
+          "url": "https://github.com/mediolano-os/mediolano-app/pull/182",
           "createdAt": "2025-07-09T12:21:32Z"
         },
         {
           "title": "dApp X/Twitter Authentication and Tweet Tokenization",
-          "url": "https://github.com/mediolano-app/mediolano-app/pull/176",
+          "url": "https://github.com/mediolano-os/mediolano-app/pull/176",
           "createdAt": "2025-06-27T11:05:23Z"
         },
         {
           "title": "Dapp X/Twitter Tokenization",
-          "url": "https://github.com/mediolano-app/mediolano-app/pull/168",
+          "url": "https://github.com/mediolano-os/mediolano-app/pull/168",
           "createdAt": "2025-05-28T10:05:45Z"
-        }
-      ]
-    },
-    {
-      "repo": "kindfi-org/kindfi",
-      "owner": "kindfi-org",
-      "repoName": "kindfi",
-      "description": "KindFi is an open-source Web3 crowdfunding platform built on Stellar. Featuring milestone-based escrows, gamified engagement, and LLM tools. GUIDE: https://kindfis-organization.gitbook.io/development",
-      "repoURL": "https://github.com/kindfi-org/kindfi",
-      "stars": 18,
-      "prsMerged": 2,
-      "commits": 2,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2025-04-30T01:21:48Z",
-      "lastContribution": "2025-05-04T18:39:35Z",
-      "prs": [
-        {
-          "title": "[Academy] Create Academy Verifier Contract",
-          "url": "https://github.com/kindfi-org/kindfi/pull/508",
-          "createdAt": "2025-05-04T10:11:08Z"
-        },
-        {
-          "title": "Test: Implement auth contract test cases",
-          "url": "https://github.com/kindfi-org/kindfi/pull/259",
-          "createdAt": "2025-03-03T05:33:38Z"
         }
       ]
     },
@@ -176,7 +176,7 @@
       "repoName": "musicstrk",
       "description": "BUIDLing a self-custodial autonomous record label solution for indie artists on Starknet.",
       "repoURL": "https://github.com/hackinsync/musicstrk",
-      "stars": 7,
+      "stars": 9,
       "prsMerged": 5,
       "commits": 5,
       "additions": 0,
@@ -212,12 +212,38 @@
       ]
     },
     {
+      "repo": "kindfi-org/kindfi",
+      "owner": "kindfi-org",
+      "repoName": "kindfi",
+      "description": "KindFi is an open-source Web3 crowdfunding platform built on Stellar. Featuring milestone-based escrows, gamified engagement, and LLM tools. GUIDE: https://kindfis-organization.gitbook.io/development",
+      "repoURL": "https://github.com/kindfi-org/kindfi",
+      "stars": 20,
+      "prsMerged": 2,
+      "commits": 2,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2025-04-30T01:21:48Z",
+      "lastContribution": "2025-05-04T18:39:35Z",
+      "prs": [
+        {
+          "title": "[Academy] Create Academy Verifier Contract",
+          "url": "https://github.com/kindfi-org/kindfi/pull/508",
+          "createdAt": "2025-05-04T10:11:08Z"
+        },
+        {
+          "title": "Test: Implement auth contract test cases",
+          "url": "https://github.com/kindfi-org/kindfi/pull/259",
+          "createdAt": "2025-03-03T05:33:38Z"
+        }
+      ]
+    },
+    {
       "repo": "songifi/lyricsflip",
       "owner": "songifi",
       "repoName": "lyricsflip",
       "description": "LyricFlip is an interactive on-chain card game where players test their music knowledge by guessing song titles or artists from partial lyrics. Featuring categories by genre and decade, players can wager tokens and compete for bragging rights. Powered by Starknet, LyricFlip blends entertainment, blockchain, and nostalgia in a fun, rewarding way!",
       "repoURL": "https://github.com/songifi/lyricsflip",
-      "stars": 14,
+      "stars": 15,
       "prsMerged": 2,
       "commits": 2,
       "additions": 0,
@@ -274,12 +300,12 @@
       ]
     },
     {
-      "repo": "mediolano-app/mediolano-contracts",
-      "owner": "mediolano-app",
+      "repo": "mediolano-os/mediolano-contracts",
+      "owner": "mediolano-os",
       "repoName": "mediolano-contracts",
       "description": "Cairo Smart Contracts @ Mediolano - intellectual property provider for the integrity web. Powered on Starknet.",
-      "repoURL": "https://github.com/mediolano-app/mediolano-contracts",
-      "stars": 14,
+      "repoURL": "https://github.com/mediolano-os/mediolano-contracts",
+      "stars": 15,
       "prsMerged": 1,
       "commits": 1,
       "additions": 0,
@@ -289,7 +315,7 @@
       "prs": [
         {
           "title": "Cairo Smart Contract: Decentralized IP Story Collaboration (ERC-1155)",
-          "url": "https://github.com/mediolano-app/mediolano-contracts/pull/115",
+          "url": "https://github.com/mediolano-os/mediolano-contracts/pull/115",
           "createdAt": "2025-07-26T13:31:06Z"
         }
       ]
@@ -376,6 +402,32 @@
       ]
     },
     {
+      "repo": "SunsetLabs-Game/Stark-Brawl",
+      "owner": "SunsetLabs-Game",
+      "repoName": "Stark-Brawl",
+      "description": "",
+      "repoURL": "https://github.com/SunsetLabs-Game/Stark-Brawl",
+      "stars": 5,
+      "prsMerged": 2,
+      "commits": 2,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2025-08-01T16:50:48Z",
+      "lastContribution": "2025-08-01T18:17:15Z",
+      "prs": [
+        {
+          "title": "Feat/add leaderboard statistics management",
+          "url": "https://github.com/SunsetLabs-Game/Stark-Brawl/pull/172",
+          "createdAt": "2025-08-01T16:28:44Z"
+        },
+        {
+          "title": " Feat: Add Tower and Trap Management to Store",
+          "url": "https://github.com/SunsetLabs-Game/Stark-Brawl/pull/171",
+          "createdAt": "2025-08-01T14:47:18Z"
+        }
+      ]
+    },
+    {
       "repo": "AquaStark/Aqua-Stark",
       "owner": "AquaStark",
       "repoName": "Aqua-Stark",
@@ -458,32 +510,6 @@
       ]
     },
     {
-      "repo": "SunsetLabs-Game/Stark-Brawl",
-      "owner": "SunsetLabs-Game",
-      "repoName": "Stark-Brawl",
-      "description": "",
-      "repoURL": "https://github.com/SunsetLabs-Game/Stark-Brawl",
-      "stars": 4,
-      "prsMerged": 2,
-      "commits": 2,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2025-08-01T16:50:48Z",
-      "lastContribution": "2025-08-01T18:17:15Z",
-      "prs": [
-        {
-          "title": "Feat/add leaderboard statistics management",
-          "url": "https://github.com/SunsetLabs-Game/Stark-Brawl/pull/172",
-          "createdAt": "2025-08-01T16:28:44Z"
-        },
-        {
-          "title": " Feat: Add Tower and Trap Management to Store",
-          "url": "https://github.com/SunsetLabs-Game/Stark-Brawl/pull/171",
-          "createdAt": "2025-08-01T14:47:18Z"
-        }
-      ]
-    },
-    {
       "repo": "Harmonia-Development/harmonia-dapp",
       "owner": "Harmonia-Development",
       "repoName": "harmonia-dapp",
@@ -515,7 +541,7 @@
       "repoName": "VolunChain-Backend",
       "description": "VolunChain is a blockchain-powered platform that connects volunteers with organizations in a transparent, decentralized, and efficient way. Our mission is to make volunteering more accessible, secure, and rewarding for everyone.",
       "repoURL": "https://github.com/VolunChain/VolunChain-Backend",
-      "stars": 7,
+      "stars": 8,
       "prsMerged": 1,
       "commits": 1,
       "additions": 0,
@@ -536,7 +562,7 @@
       "repoName": "The-Velvet-Ace",
       "description": "The Velvet Ace is an online Casino, facilitating the staking of tokens to play games on-chain as you were in an actual casino.",
       "repoURL": "https://github.com/Prometheus-A/The-Velvet-Ace",
-      "stars": 6,
+      "stars": 7,
       "prsMerged": 1,
       "commits": 1,
       "additions": 0,
@@ -548,6 +574,27 @@
           "title": "Feat: Implement `resolve_round`",
           "url": "https://github.com/Prometheus-A/The-Velvet-Ace/pull/76",
           "createdAt": "2025-03-28T05:48:04Z"
+        }
+      ]
+    },
+    {
+      "repo": "saving-satoshi/saving-satoshi-script",
+      "owner": "saving-satoshi",
+      "repoName": "saving-satoshi-script",
+      "description": "Standalone Opcode Script Parser and Editor",
+      "repoURL": "https://github.com/saving-satoshi/saving-satoshi-script",
+      "stars": 5,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2026-04-20T02:29:22Z",
+      "lastContribution": "2026-04-20T02:29:22Z",
+      "prs": [
+        {
+          "title": "Implement OP_CHECKSIGADD opcode",
+          "url": "https://github.com/saving-satoshi/saving-satoshi-script/pull/19",
+          "createdAt": "2026-03-18T14:22:36Z"
         }
       ]
     },
@@ -593,6 +640,27 @@
       ]
     },
     {
+      "repo": "boundlessfi/boundless-contract",
+      "owner": "boundlessfi",
+      "repoName": "boundless-contract",
+      "description": "",
+      "repoURL": "https://github.com/boundlessfi/boundless-contract",
+      "stars": 3,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2025-05-16T23:37:40Z",
+      "lastContribution": "2025-05-16T23:37:40Z",
+      "prs": [
+        {
+          "title": "Feat: Implement Funding Operations",
+          "url": "https://github.com/boundlessfi/boundless-contract/pull/5",
+          "createdAt": "2025-05-01T11:33:20Z"
+        }
+      ]
+    },
+    {
       "repo": "stakepoint/starkwager-backend",
       "owner": "stakepoint",
       "repoName": "starkwager-backend",
@@ -610,27 +678,6 @@
           "title": "Feat: Add opposing claims validation",
           "url": "https://github.com/stakepoint/starkwager-backend/pull/130",
           "createdAt": "2025-03-31T06:19:03Z"
-        }
-      ]
-    },
-    {
-      "repo": "VolunChain/VolunChain-SmartContracts",
-      "owner": "VolunChain",
-      "repoName": "VolunChain-SmartContracts",
-      "description": "",
-      "repoURL": "https://github.com/VolunChain/VolunChain-SmartContracts",
-      "stars": 3,
-      "prsMerged": 1,
-      "commits": 1,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2025-02-28T20:52:02Z",
-      "lastContribution": "2025-02-28T20:52:02Z",
-      "prs": [
-        {
-          "title": "Feat: NFT-Based Volunteer Recognition System ",
-          "url": "https://github.com/VolunChain/VolunChain-SmartContracts/pull/9",
-          "createdAt": "2025-02-25T00:15:26Z"
         }
       ]
     },
@@ -715,6 +762,27 @@
           "title": "Feature: Insurance Company Entity Management Contract",
           "url": "https://github.com/VitaCare-Organization/vitacare-dev/pull/43",
           "createdAt": "2025-04-28T18:48:28Z"
+        }
+      ]
+    },
+    {
+      "repo": "VolunChain/VolunChain-SmartContracts",
+      "owner": "VolunChain",
+      "repoName": "VolunChain-SmartContracts",
+      "description": "",
+      "repoURL": "https://github.com/VolunChain/VolunChain-SmartContracts",
+      "stars": 2,
+      "prsMerged": 1,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 0,
+      "firstContribution": "2025-02-28T20:52:02Z",
+      "lastContribution": "2025-02-28T20:52:02Z",
+      "prs": [
+        {
+          "title": "Feat: NFT-Based Volunteer Recognition System ",
+          "url": "https://github.com/VolunChain/VolunChain-SmartContracts/pull/9",
+          "createdAt": "2025-02-25T00:15:26Z"
         }
       ]
     },
@@ -808,27 +876,6 @@
       ]
     },
     {
-      "repo": "boundlessfi/boundless-contract",
-      "owner": "boundlessfi",
-      "repoName": "boundless-contract",
-      "description": "",
-      "repoURL": "https://github.com/boundlessfi/boundless-contract",
-      "stars": 1,
-      "prsMerged": 1,
-      "commits": 1,
-      "additions": 0,
-      "deletions": 0,
-      "firstContribution": "2025-05-16T23:37:40Z",
-      "lastContribution": "2025-05-16T23:37:40Z",
-      "prs": [
-        {
-          "title": "Feat: Implement Funding Operations",
-          "url": "https://github.com/boundlessfi/boundless-contract/pull/5",
-          "createdAt": "2025-05-01T11:33:20Z"
-        }
-      ]
-    },
-    {
       "repo": "alexohre/crowdchain_contracts",
       "owner": "alexohre",
       "repoName": "crowdchain_contracts",
@@ -850,11 +897,11 @@
       ]
     },
     {
-      "repo": "Lead-Studios/veritix-express",
+      "repo": "Lead-Studios/veritix-contract-sdk",
       "owner": "Lead-Studios",
-      "repoName": "veritix-express",
+      "repoName": "veritix-contract-sdk",
       "description": "",
-      "repoURL": "https://github.com/Lead-Studios/veritix-express",
+      "repoURL": "https://github.com/Lead-Studios/veritix-contract-sdk",
       "stars": 1,
       "prsMerged": 1,
       "commits": 1,
@@ -865,7 +912,7 @@
       "prs": [
         {
           "title": "Feat: Event Poster Management API",
-          "url": "https://github.com/Lead-Studios/veritix-express/pull/28",
+          "url": "https://github.com/Lead-Studios/veritix-contract-sdk/pull/28",
           "createdAt": "2025-03-28T11:30:39Z"
         }
       ]
