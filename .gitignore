@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scripts
+scripts/
+
+# raw stats byproduct from scripts/update_data.js (the tracked copy lives in src/data/)
+/contributions.json
+/scripts/update_data.log
